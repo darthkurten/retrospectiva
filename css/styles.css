@@ -1,0 +1,401 @@
+/* ----------------------
+	Guilherme Kürten
+	06/01/2015
+
+-----------------------*/
+
+/* Geral */
+
+  *, *:before, *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+
+
+body {
+
+	height: 100%;
+	margin: 0px;
+	font-size: 62.5%;
+	padding: 0;
+}
+
+section {
+
+	background: url(../images/header.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	width: 100%;
+	height: 100vh;
+	max-width: 1920px;
+	display: table;
+	float: left;
+	margin: 0;
+
+}
+
+
+.container {
+   max-width: 38.02083333333333%; /* 730px */
+   min-width: 725px;
+   margin: 0 auto;
+   height: 100%;
+   display: block;
+
+}
+
+
+img,
+picture,
+video,
+embed {
+   max-width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+/* fim de geral */
+
+/* Flexbox 
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+
+/* fim de flexbox */
+
+
+/* Tipografia */
+
+h1.lead {
+
+	font-family: 'Playfair Display', serif;
+	font-size: 7em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #ffffff;
+    text-align: center;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+
+h2 {
+
+	font-family: 'Playfair Display', serif;
+	font-size: 6em;
+	font-weight: 400;
+	color: #ffffff;
+    text-align: center;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	position: relative;
+	display: block;
+	line-height: 0.5em;
+	margin: -.5em auto .33em;
+
+}
+
+
+h3	{
+
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+	font-weight: 400;
+	color: #ffffff;
+	opacity: 0.45;
+    filter: alpha(opacity=40);
+    text-align: center;
+    position: relative;
+	margin: 6.85em auto 0;
+    display: block;
+ 
+
+}
+
+
+h4	{
+
+	font-family: 'Fauna One', serif;
+	font-size: 1.88em;
+	font-weight: 400;
+	color: #ffffff;
+	opacity: 0.45;
+    filter: alpha(opacity=40);
+    text-align: center;
+    position: relative;
+
+ 
+
+}
+
+h5 {
+
+	font-family: 'Playfair Display', serif;
+	font-size: 5em;
+	font-weight: 400;
+	color: #ffffff;
+    text-align: center;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	position: relative;
+	top: 0;
+	display: block;
+	line-height: 1.45em;
+	background: url("../images/numeros.png") center no-repeat;
+	height: 1.82em;
+	margin: 2em auto 2em;
+
+}
+
+
+
+/* Lead */
+
+.lead p {
+
+	font-family: 'Fauna One', serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 2.0em;
+	color: #ffffff;
+	text-align: justify;
+	margin: 0 auto;
+	padding: 0 0 2em;
+	display: block;
+
+}
+
+.lead p:first-child {
+
+	font-family: 'Fauna One', serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 2.0em;
+	color: #ffffff;
+	text-align: justify;
+	margin: 5em auto 0;
+	padding: 0 0 2em;
+
+}
+
+
+/* Listas */
+
+
+.texto p:first-child {
+
+	font-family: 'Fauna One', serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 2.0em;
+	color: #ffffff;
+	text-align: justify;
+	padding: 0 0 2em;
+	margin: 3.6em auto 0;
+	position: relative;
+
+
+}
+
+
+.texto p {
+
+	font-family: 'Fauna One', serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 2.0em;
+	color: #ffffff;
+	text-align: justify;
+	margin: 0 auto;
+	padding: 0 0 2em;
+	position: relative;
+
+
+}
+
+.texto a {
+
+		text-decoration: none;
+		width: 23em;
+		height: 6.2em;
+		display: block;
+		border: solid 0.2em #ffffff;
+		margin: 3.8em auto;
+		position: relative;
+		background-image: url("../images/spotify.png");
+		background-position: 8% 50%;
+		background-repeat: no-repeat;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	
+}
+
+	.texto a:hover {
+
+			color: #000;
+			background-color: #81b71a;
+			border: solid 0.2em #699613;
+
+		}
+
+.texto span {
+
+	font-family: 'Fauna One', serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 3.8em;
+	color: #ffffff;
+	margin: 0 0 0 4.3em;
+
+}
+
+
+#sete {
+	
+	background: url(../images/fidlar.jpg)
+}
+
+#tres {
+	
+	background: url(../images/unknown.jpg)
+}
+
+
+/* Footer */
+
+footer {
+
+	background-position: #000;
+	color: #969696;
+	display: block;
+}
+
+footer p {
+
+	font-family: 'Fauna One', serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 2.0em;
+	text-align: justify;
+	margin: 0 auto;
+	float: left;
+	padding: 1em 0 2em;
+
+}
+
+	footer p:first-child {
+
+		position: relative;
+		top: 1em;
+		display: block;
+		float: left;
+		padding: 1em 0 2em;
+	}
+
+footer a {
+
+	text-decoration: none;
+	color: #646464;
+	font-weight: 600;
+}
+
+	footer a:hover {
+
+		color: #e50363;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+
+	}
+
+footer span {
+
+	font-family: 'Playfair Display', serif;
+	font-size: 8em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #fff;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 0 1em;
+	line-height: 1em;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+	footer span a {
+
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		color: #fff;
+	    text-align: center;
+	    position: relative;
+	    margin: 0 auto;
+	    padding: 0 0 1em;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizelegibility;
+	}
+
+	footer span a:hover {
+
+		color: #e50363;
+		-webkit-transition: all 0.8s;
+		-moz-transition: all 0.8s;
+		transition: all 0.8s;
+
+	}
+
+footer strong {
+
+	font-weight: 400;
+	font-size: 1.657em;
+	line-height: 0.8em;
+
+}
+
+
+*/
+
+
+
+.clearfix:before,
+.clearfix:after {
+   content: " ";
+   display: table;
+}
+ 
+.clearfix:after {
+   clear: both;
+}
+ 
+.clearfix {
+   *zoom: 1;
+}
+
+
+
