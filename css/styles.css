@@ -134,7 +134,7 @@ h4	{
 h5 {
 
 	font-family: 'Playfair Display', serif;
-	font-size: 5em;
+	font-size: 4em;
 	font-weight: 400;
 	color: #ffffff;
     text-align: center;
@@ -143,10 +143,10 @@ h5 {
 	position: relative;
 	top: 0;
 	display: block;
-	line-height: 1.45em;
+	line-height: 1.55em;
 	background: url("../images/numeros.png") center no-repeat;
-	height: 1.82em;
-	margin: 2em auto 2em;
+	height: 1.92em;
+	margin: 2.55em auto 2.69em;
 
 }
 
