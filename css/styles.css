@@ -400,37 +400,37 @@ footer strong {
 
 }
 
-h3	{
+	h3	{
 
-	font-size: 2.6em;
-	
+		font-size: 2.6em;
+		
+	}
+
+	footer strong {
+
+	font-size: 1.647em;
 }
 
-	footer span {
 
-		font-size: 6em;
+	section {
 
-}
+		background: url(../images/header-640.jpg);
 
-section {
-
-	background: url(../images/header-640.jpg);
-
-}
+	}
 
 /* 480px */
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 480px) {
 	
 	body {
 
-	font-size: 55.5%;
+	font-size: 45%;
 
 	}
 
 
 	.container {
-	   min-width: 480px;
+	   min-width: 320px;
 
 	}
 
@@ -438,7 +438,7 @@ section {
 
 	h1.lead {
 
-		font-size: 5.26em;
+		font-size: 4.3249em;
 
 	}
 
@@ -446,36 +446,128 @@ section {
 
 		font-size: 4em;
 		line-height: 1.80em;
-		background: url("../images/numeros-640.png") center no-repeat;
+		background: url("../images/numeros-480.png") center no-repeat;
 		height: 2.099em;
 
 	}
 
 	h2 {
 
-	font-size: 5.85em;
+	font-size: 5.57em;
 	line-height: 0.5em;
 
 }
 
-h3	{
+	h3	{
 
-	font-size: 2.6em;
+		font-size: 2.39em;
+		
+	}
+
+		footer span {
+
+			font-size: 6em;
+
+	}
+
+	section {
+
+		background: url(../images/header-480.jpg);
+
+	}
+
+	.texto a {
+
+		background-image: url("../images/spotify-480.png");
+
+	}
+
+	footer strong {
+
+	font-size: 1.354em;
+	}
+
+}
+
+
+/* 480px */
+
+@media only screen and (max-width: 320px) {
 	
+	body {
+
+	font-size: 45%;
+
+	}
+
+
+	.container {
+	   min-width: 280px;
+
+	}
+
+	/* Tipografia */
+
+	h1.lead {
+
+		font-size: 3.79em;
+
+	}
+
+	h5 {
+
+		font-size: 4em;
+		line-height: 1.80em;
+		background: url("../images/numeros-480.png") center no-repeat;
+		height: 2.099em;
+
+	}
+
+	h2 {
+
+	font-size: 5.57em;
+	line-height: 0.9em;
+
 }
 
-	footer span {
+	h3	{
 
-		font-size: 6em;
+		font-size: 2.39em;
+		margin: 4.85em auto 0;
+
+		
+	}
+
+
+	section {
+
+		background: url(../images/header-640.jpg);
+
+	}
+
+	.texto a {
+
+		background-image: url("../images/spotify-480.png");
+		margin: 2em auto 8.9em;
+
+	}
+
+	.lead p {
+
+		padding: 0 0 10.29em;
+	}
+
+	footer span{
+
+	font-size: 5em;
+	}
+
+	footer strong {
+
+	font-size: 1.4224em;
+	}
 
 }
-
-section {
-
-	background: url(../images/header-640.jpg);
-
-}
-
 /* --------- */
 
 
