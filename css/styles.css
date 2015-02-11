@@ -21,6 +21,8 @@ body {
 	margin: 0px;
 	font-size: 62.5%;
 	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 
 section {
@@ -37,6 +39,76 @@ section {
 
 }
 
+/* HEADER */
+
+header nav {
+
+	text-align: center;
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	width: 100%;
+}
+
+header nav ul {
+
+	display: block;
+	list-style: none;
+	padding: 0;
+
+}
+
+header nav ul li{
+
+	
+	display: inline-block;
+	margin: 0 0 0 1em;
+
+}
+
+header nav ul li a {
+
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 50%;
+	border: solid 1pt transparent;
+	width: 2em;
+	height: 2em;
+	line-height: 1.95em; 
+
+	font-family: 'Fauna One', serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #fff;
+
+	opacity: 0.15;
+}
+
+header nav ul li a.final {
+
+	padding: 0 0 0 0.13em;
+}
+
+	header nav ul li a:hover {
+
+	color: #000;
+	background-color: #fff;
+
+	-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+
+	opacity: 1;
+
+}
+
+	header nav ul li a:active {
+
+		color: #fff;
+		background-color: #000;
+}
+
+/* fim header */
 
 .container {
    max-width: 38.02083333333333%; /* 730px */
@@ -376,6 +448,18 @@ footer strong {
 
 	}
 
+	/* Menu */
+
+	header nav ul li a {
+
+		font-size: 2em;
+	}
+
+		header nav ul li a:hover {
+
+		font-size: 2em;
+	}
+
 	/* Tipografia */
 
 	h1.lead {
@@ -438,6 +522,16 @@ footer strong {
 	   min-width: 320px;
 
 	}
+
+	/* menu */
+
+	header nav ul li{
+
+	
+	display: inline-block;
+	margin: 0 0 0 1.5em;
+
+}
 
 	/* Tipografia */
 
