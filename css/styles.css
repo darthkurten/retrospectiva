@@ -41,16 +41,26 @@ section {
 
 /* HEADER */
 
-header nav {
+nav {
 
 	text-align: center;
+	width: 100%;
 	position: fixed;
 	z-index: 99999;
 	top: 0;
-	width: 100%;
+	
 }
 
-header nav ul {
+nav.stick {
+
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+		
+
+}
+
+nav ul {
 
 	display: block;
 	list-style: none;
@@ -58,7 +68,7 @@ header nav ul {
 
 }
 
-header nav ul li{
+nav ul li{
 
 	
 	display: inline-block;
@@ -66,7 +76,7 @@ header nav ul li{
 
 }
 
-header nav ul li a {
+nav ul li a {
 
 	display: inline-block;
 	text-decoration: none;
@@ -84,12 +94,12 @@ header nav ul li a {
 	opacity: 0.15;
 }
 
-header nav ul li a.final {
+nav ul li a.final {
 
 	padding: 0 0 0 0.13em;
 }
 
-	header nav ul li a:hover {
+	nav ul li a:hover {
 
 	color: #000;
 	background-color: #fff;
@@ -102,7 +112,7 @@ header nav ul li a.final {
 
 }
 
-	header nav ul li a:active {
+	nav ul li a:active {
 
 		color: #fff;
 		background-color: #000;
