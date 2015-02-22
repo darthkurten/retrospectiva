@@ -51,14 +51,7 @@ nav {
 	
 }
 
-nav.stick {
 
-	position: fixed;
-	z-index: 99999;
-	top: 0;
-		
-
-}
 
 nav ul {
 
@@ -232,6 +225,15 @@ h5 {
 
 }
 
+	h5.primeiro {
+
+		line-height: 1.69em;
+	}
+
+	h5.numeroredondo {
+
+		line-height: 1.8em;
+	}
 
 
 /* Lead */
@@ -336,14 +338,54 @@ h5 {
 }
 
 
-#sete {
+#dez {
 	
 	background: url(../images/fidlar.jpg)
+}
+
+#nove {
+	
+	background: url(../images/janelle.jpg)
+}
+
+#oito {
+	
+	background: url(../images/rick.jpg)
+}
+
+#sete {
+	
+	background: url(../images/claranunes.jpg)
+}
+
+#seis {
+	
+	background: url(../images/bornruffians.jpg)
+}
+
+#cinco {
+	
+	background: url(../images/yes.jpg)
+}
+
+#quatro {
+	
+	background: url(../images/cartola.jpg)
 }
 
 #tres {
 	
 	background: url(../images/unknown.jpg)
+}
+
+#dois {
+	
+	background: url(../images/manfred.jpg)
+}
+
+#um {
+	
+	background: url(../images/pink.jpg)
 }
 
 
@@ -517,6 +559,75 @@ footer strong {
 
 	}
 
+	h5 {
+
+		height: 2.110em
+	}
+
+	h5.primeiro {
+
+		line-height: 1.85em;
+	}
+
+
+	h5.numeroredondo {
+
+		line-height: 1.95em;
+	}
+
+	#dez {
+	
+	background: url(../images/fidlar_640.jpg)
+}
+
+	#nove {
+		
+		background: url(../images/janelle_640.jpg)
+	}
+
+	#oito {
+		
+		background: url(../images/rick_640.jpg)
+	}
+
+	#sete {
+		
+		background: url(../images/claranunes_640.jpg)
+	}
+
+	#seis {
+		
+		background: url(../images/bornruffians_640.jpg)
+	}
+
+	#cinco {
+		
+		background: url(../images/yes_640.jpg)
+	}
+
+	#quatro {
+		
+		background: url(../images/cartola_640.jpg)
+	}
+
+	#tres {
+		
+		background: url(../images/unknown_640.jpg)
+	}
+
+	#dois {
+		
+		background: url(../images/manfred_640.jpg)
+	}
+
+	#um {
+		
+		background: url(../images/pink_640.jpg)
+	}
+
+
+	
+
 /* 480px */
 
 @media only screen and (max-width: 480px) {
@@ -599,7 +710,70 @@ footer strong {
 }
 
 
-/* 480px */
+	h5.primeiro {
+
+		line-height: 1.85em;
+	}
+
+
+	h5.numeroredondo {
+
+		line-height: 2.07em;
+	}
+
+	#dez {
+	
+	background: url(../images/fidlar_480.jpg)
+}
+
+	#nove {
+		
+		background: url(../images/janelle_480.jpg)
+	}
+
+	#oito {
+		
+		background: url(../images/rick_480.jpg)
+	}
+
+	#sete {
+		
+		background: url(../images/claranunes_480.jpg)
+	}
+
+	#seis {
+		
+		background: url(../images/bornruffians_480.jpg)
+	}
+
+	#cinco {
+		
+		background: url(../images/yes_480.jpg)
+	}
+
+	#quatro {
+		
+		background: url(../images/cartola_480.jpg)
+	}
+
+	#tres {
+		
+		background: url(../images/unknown_480.jpg)
+	}
+
+	#dois {
+		
+		background: url(../images/manfred_480.jpg)
+	}
+
+	#um {
+		
+		background: url(../images/pink_480.jpg)
+	}
+
+
+
+/* 320px */
 
 @media only screen and (max-width: 320px) {
 	
@@ -677,6 +851,57 @@ footer strong {
 	}
 
 }
+
+	#dez {
+	
+	background: url(../images/fidlar_320.jpg)
+}
+
+	#nove {
+		
+		background: url(../images/janelle_320.jpg)
+	}
+
+	#oito {
+		
+		background: url(../images/rick_320.jpg)
+	}
+
+	#sete {
+		
+		background: url(../images/claranunes_320.jpg)
+	}
+
+	#seis {
+		
+		background: url(../images/bornruffians_320.jpg)
+	}
+
+	#cinco {
+		
+		background: url(../images/yes_320.jpg)
+	}
+
+	#quatro {
+		
+		background: url(../images/cartola_320.jpg)
+	}
+
+	#tres {
+		
+		background: url(../images/unknown_320.jpg)
+	}
+
+	#dois {
+		
+		background: url(../images/manfred_320.jpg)
+	}
+
+	#um {
+		
+		background: url(../images/pink_320.jpg)
+	}
+
 /* --------- */
 
 
