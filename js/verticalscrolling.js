@@ -1,4 +1,5 @@
 $(function() {
+	console.log('a');
 	$('ul.nav a').bind('click',function(event){
 		var $anchor = $(this);
 
