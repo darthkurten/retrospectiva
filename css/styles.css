@@ -74,7 +74,7 @@ nav ul li a {
 	display: inline-block;
 	text-decoration: none;
 	border-radius: 50%;
-	border: solid 1pt transparent;
+	border: solid 1pt;
 	width: 2em;
 	height: 2em;
 	line-height: 1.95em; 
@@ -87,28 +87,28 @@ nav ul li a {
 	opacity: 0.15;
 }
 
-nav ul li a.final {
 
-	padding: 0 0 0 0.13em;
-}
 
 	nav ul li a:hover {
 
-	color: #000;
-	background-color: #fff;
-
+	border: solid 1pt #fff;
 	-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
-		transition: all 0.3s;
-
+			transition: all 0.3s;
 	opacity: 1;
 
 }
 
-	nav ul li a:active {
+	.actived {
 
-		color: #fff;
-		background-color: #000;
+		color: #a3a3a3;
+		background-color: #fff;
+
+		-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+				transition: all 0.3s;
+
+		opacity: 0.5;
 }
 
 /* fim header */
@@ -407,6 +407,7 @@ footer p {
 	text-align: justify;
 	margin: 0 auto;
 	float: left;
+	display: inline-block;
 	padding: 1em 0 2em;
 
 }
@@ -439,7 +440,7 @@ footer a {
 footer span {
 
 	font-family: 'Playfair Display', serif;
-	font-size: 8em;
+	font-size: 5em;
 	text-transform: uppercase;
 	font-weight: 400;
 	color: #fff;
@@ -481,6 +482,47 @@ footer strong {
 	line-height: 0.8em;
 
 }
+
+.linkspotify {
+
+	color: #81b71a;
+}
+
+	.linkspotify:hover {
+
+		color: #699613;
+	}
+
+.linkfacebook {
+
+color: #3b5998;
+}
+
+	.linkfacebook:hover {
+
+		color: #17233c;
+	}
+
+.linktwitter {
+
+	color: #00aced;
+}
+
+	.linktwitter:hover {
+
+		color: #0084b4;
+		
+	}
+
+.linkinstagram {
+
+	color: #517fa4;
+}
+
+	.linkinstagram:hover {
+
+		color: #32506d;
+	}
 
 /* Media queries */
 
@@ -544,7 +586,7 @@ footer strong {
 
 	footer span {
 
-		font-size: 6em;
+		font-size: 3.749em;
 	}
 
 	footer strong {
@@ -578,7 +620,7 @@ footer strong {
 	#dez {
 	
 	background: url(../images/fidlar_640.jpg)
-}
+	}
 
 	#nove {
 		
@@ -626,8 +668,6 @@ footer strong {
 	}
 
 
-	
-
 /* 480px */
 
 @media only screen and (max-width: 480px) {
@@ -645,6 +685,11 @@ footer strong {
 	}
 
 	/* menu */
+
+	header nav ul li a {
+
+		font-size: 1.8em;
+	}
 
 	header nav ul li{
 
@@ -684,11 +729,7 @@ footer strong {
 		
 	}
 
-		footer span {
-
-			font-size: 6em;
-
-	}
+	
 
 	section {
 
@@ -702,12 +743,16 @@ footer strong {
 
 	}
 
-	footer strong {
+	footer span {
 
-	font-size: 1.354em;
+			font-size: 3.749em;
+		}
+
+		footer strong {
+
+		font-size: 1.647em;
 	}
 
-}
 
 
 	h5.primeiro {
@@ -721,56 +766,12 @@ footer strong {
 		line-height: 2.07em;
 	}
 
-	#dez {
-	
-	background: url(../images/fidlar_480.jpg)
-}
 
-	#nove {
-		
-		background: url(../images/janelle_480.jpg)
+
+	footer strong {
+
+		font-size: 1.354em;
 	}
-
-	#oito {
-		
-		background: url(../images/rick_480.jpg)
-	}
-
-	#sete {
-		
-		background: url(../images/claranunes_480.jpg)
-	}
-
-	#seis {
-		
-		background: url(../images/bornruffians_480.jpg)
-	}
-
-	#cinco {
-		
-		background: url(../images/yes_480.jpg)
-	}
-
-	#quatro {
-		
-		background: url(../images/cartola_480.jpg)
-	}
-
-	#tres {
-		
-		background: url(../images/unknown_480.jpg)
-	}
-
-	#dois {
-		
-		background: url(../images/manfred_480.jpg)
-	}
-
-	#um {
-		
-		background: url(../images/pink_480.jpg)
-	}
-
 
 
 /* 320px */
@@ -787,6 +788,13 @@ footer strong {
 	.container {
 	   min-width: 280px;
 
+	}
+
+	/* menu */
+
+	header nav ul li a {
+
+		margin-bottom: 0.45em;
 	}
 
 	/* Tipografia */
@@ -850,57 +858,56 @@ footer strong {
 	font-size: 1.4224em;
 	}
 
-}
 
 	#dez {
-	
-	background: url(../images/fidlar_320.jpg)
-}
-
-	#nove {
 		
-		background: url(../images/janelle_320.jpg)
-	}
+		background: url(../images/fidlar_320.jpg)
+		}
 
-	#oito {
-		
-		background: url(../images/rick_320.jpg)
-	}
+		#nove {
+			
+			background: url(../images/janelle_320.jpg)
+		}
 
-	#sete {
-		
-		background: url(../images/claranunes_320.jpg)
-	}
+		#oito {
+			
+			background: url(../images/rick_320.jpg)
+		}
 
-	#seis {
-		
-		background: url(../images/bornruffians_320.jpg)
-	}
+		#sete {
+			
+			background: url(../images/claranunes_320.jpg)
+		}
 
-	#cinco {
-		
-		background: url(../images/yes_320.jpg)
-	}
+		#seis {
+			
+			background: url(../images/bornruffians_320.jpg)
+		}
 
-	#quatro {
-		
-		background: url(../images/cartola_320.jpg)
-	}
+		#cinco {
+			
+			background: url(../images/yes_320.jpg)
+		}
 
-	#tres {
-		
-		background: url(../images/unknown_320.jpg)
-	}
+		#quatro {
+			
+			background: url(../images/cartola_320.jpg)
+		}
 
-	#dois {
-		
-		background: url(../images/manfred_320.jpg)
-	}
+		#tres {
+			
+			background: url(../images/unknown_320.jpg)
+		}
 
-	#um {
-		
-		background: url(../images/pink_320.jpg)
-	}
+		#dois {
+			
+			background: url(../images/manfred_320.jpg)
+		}
+
+		#um {
+			
+			background: url(../images/pink_320.jpg)
+		}
 
 /* --------- */
 
