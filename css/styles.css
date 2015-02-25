@@ -526,7 +526,28 @@ color: #3b5998;
 
 /* Media queries */
 
-/* 640px */
+
+/* 1366x */
+
+@media only screen and (max-width: 1366px) {
+	
+	h5 {
+
+		margin: 2.1em auto 2.10em;
+	}
+
+	.texto p:first-child {
+
+		margin: 2em auto 0;
+
+	}
+
+	.texto a {
+
+		margin: 0em auto 3.9em;
+	}
+
+/* 768px */
 
 @media only screen and (max-width: 768px) {
 	
@@ -668,6 +689,13 @@ color: #3b5998;
 	}
 
 
+	footer span a {
+
+		color: #e50363;
+		
+		}
+
+
 /* 480px */
 
 @media only screen and (max-width: 480px) {
@@ -698,6 +726,13 @@ color: #3b5998;
 	margin: 0 0 0 1.5em;
 
 }
+
+header nav ul li a {
+
+		margin-bottom: 0.45em;
+	}
+
+
 
 	/* Tipografia */
 
@@ -774,6 +809,7 @@ color: #3b5998;
 	}
 
 
+
 /* 320px */
 
 @media only screen and (max-width: 320px) {
@@ -832,7 +868,7 @@ color: #3b5998;
 
 	section {
 
-		background: url(../images/header-640.jpg);
+		background: url(../images/header-320.jpg);
 
 	}
 
